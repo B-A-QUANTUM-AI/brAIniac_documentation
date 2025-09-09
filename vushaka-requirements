@@ -1,0 +1,20 @@
+Requirements
+  	Functional:
+•	Input MRI scans in digital format. 
+•	The system must normalize and preprocess images (e.g., resize, contrast adjustment, noise reduction).
+•	The system must classify tumors into one of four categories: Glioma, Meningioma, Pituitary Adenoma, or No Tumor.
+•	The system must provide a confidence score (%) for each prediction.
+•	The system must generate a diagnostic report summarizing: tumor type, probability, and recommendations for further analysis.
+•	The system must notify radiologists if a high-probability tumor is detected.
+•	The system must flag urgent cases for priority review.
+•	Generate summary reports for radiologists.
+	Non-Functional:
+•	The system must achieve at least 90% accuracy in tumor classification.
+•	The system must analyze an MRI scan and generate results in under 5 minutes.
+•	The system must handle at least 30 MRI scans per hour concurrently.
+•	The system must maintain consistent performance across different MRI machine models.
+•	The system must support expansion to other departments and hospitals in future.
+•	The system must comply with South Africa’s POPIA healthcare data privacy regulations.
+•	The system must be available 99.9% of the time.
+•	User-friendly dashboard for non-technical staff.
+
