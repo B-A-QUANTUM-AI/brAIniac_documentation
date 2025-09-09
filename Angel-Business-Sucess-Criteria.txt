@@ -1,0 +1,4 @@
+BUSINESS SUCCESS CRITERIA
+1.Accuracy - Aim for at least 90% accuracy when classifying brain MRI scans into the different categories: Healthy, Glioma, Meningioma, and Pituitary Adenoma.
+2.Time Efficiency - process each scan and generate a full analysis report, including detection, classification, and visualization outputs, in under 5 minutes.
+3.Usability-The system interface shall be designed for intuitive operation, enabling personnel without a medical background to process scans and generate reports effectively
