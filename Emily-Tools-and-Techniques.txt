@@ -1,0 +1,22 @@
+Tools and techniques
+1.	Python – the main development language due to its wide range of AI/ML libraries and strong community support
+2.	Machine Learning and Deep Learning Techniques
+•	Linear regression – for the numerical predictions like tumor size.
+•	Convolutional Neural Networks (CNNs) – for tumor detection and classification from the MRI scans.
+•	Image Segmentation Model (resNet) – for identifying tumor size and location.
+•	Risk Assessment Algorithms – to assign the priority levels of the tumor(Low, Medium and High).
+3.	Python Libraries
+•	Pandas – for arranging and processing MRI metadata and patient file records
+•	Numpy – for handling numerical operations.
+•	Scikit-Learn – for ML tasks (classification, regression)
+•	TensorFlow / PyTorch – for DL (CNNs and resNet)
+4.	Development and collaboration Tools and Techniques
+•	Face to face meetings – To discuss the work and brainstorm ideas
+•	WhatsApp – for faster and ease of communications
+•	Git and GitHub – version control, code collaboration and project management
+•	Visual Studio Code – for development of brAIniac codebase
+5.	Support Tools
+•	Grammarly – for formatting documentation
+•	MS Word – for generating documentation for brAIniac project
+•	Notepad – for generating documentation on how to use brAIniac
+•	Canva/Figma – for creating poster and presentation design
