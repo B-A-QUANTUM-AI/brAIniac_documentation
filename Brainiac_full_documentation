@@ -1,4 +1,4 @@
-
+1. AI SOLUTION 
 
 
 2. BUSINESS OBJECTIVES
@@ -21,6 +21,10 @@
     C.Usability
          The system interface shall be designed for intuitive operation, enabling personnel without a medical background to process scans and generate reports effectively
 
+4. BUSINESS BACKGROUND
+
+5. REQUIREMENTS
+
 6. CONSTRAINTS.
     The brAIniac system is limited to the analysis of MRI brain scans only.
     The brain tumor classification is restricted to Glioma, Meningioma, and Pituitary Adenoma only.
@@ -28,3 +32,29 @@
     The brAIniac will ensure transparency in reporting tumor detection, classification and risk assessment therefore the transparency in how risk levels are determined is non-negotiable.
     The system will not predict how long a patient will live, it is limited to analyzing MRI brain scans and classifying the seriousness of brain tumors.
     The brAIniac system is not going to replace medical professionals but to support and help them in medical decision-making.
+
+7. RISKS
+
+8. TOOLS AND TECHNIQUES
+    A.	Python 
+          The main development language due to its wide range of AI/ML libraries and strong community support
+    B.	Machine Learning and Deep Learning Techniques
+          •	Linear regression – for the numerical predictions like tumor size.
+          •	Convolutional Neural Networks (CNNs) – for tumor detection and classification from the MRI scans.
+          •	Image Segmentation Model (resNet) – for identifying tumor size and location.
+          •	Risk Assessment Algorithms – to assign the priority levels of the tumor(Low, Medium and High).
+    C.	Python Libraries
+          •	Pandas – for arranging and processing MRI metadata and patient file records
+          •	Numpy – for handling numerical operations.
+          •	Scikit-Learn – for ML tasks (classification, regression)
+          •	TensorFlow / PyTorch – for DL (CNNs and resNet)
+    D.	Development and collaboration Tools and Techniques
+          •	Face to face meetings – To discuss the work and brainstorm ideas
+          •	WhatsApp – for faster and ease of communications
+          •	Git and GitHub – version control, code collaboration and project management
+          •	Visual Studio Code – for development of brAIniac codebase
+    E.	Support Tools
+          •	Grammarly – for formatting documentation
+          •	MS Word – for generating documentation for brAIniac project
+          •	Notepad – for generating documentation on how to use brAIniac
+          •	Canva/Figma – for creating poster and presentation design
