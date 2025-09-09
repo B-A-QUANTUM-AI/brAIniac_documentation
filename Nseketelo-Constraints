@@ -1,0 +1,8 @@
+CONSTRAINTS.
+
+The brAIniac system is limited to the analysis of MRI brain scans only.
+The brain tumor classification is restricted to Glioma, Meningioma, and Pituitary Adenoma only.
+The system will use Grad-MAP heatmaps to further illustrate the seriousness of the tumor.
+The brAIniac will ensure transparency in reporting tumor detection, classification and risk assessment therefore the transparency in how risk levels are determined is non-negotiable.
+The system will not predict how long a patient will live, it is limited to analyzing MRI brain scans and classifying the seriousness of brain tumors.
+The brAIniac system is not going to replace medical professionals but to support and help them in medical decision-making.
