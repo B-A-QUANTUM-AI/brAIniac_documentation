@@ -1,0 +1,15 @@
+Risks and mitigation
+Risk: Missclassification due to MRI scans or poor-quality data. 
+Mitigation: By using Grad-Map to ensure that the model is only focused on the tumour area, and training our AI on a diverse, multi-source dataset of MRI scans.
+
+Risk: “Black box” AI and lack of transparency
+Mitigation: A transparent reporting system that includes a confidence score like “Glioma - 88%” and visualizations 
+to prevent blind trust in uncertain predictions. Clearly explain the risk assessment, showing the tumor detected, the reason, the risk, and the confidence.
+
+Risk: Insufficient AI training 
+Mitigation: Using Data Augmentation techniques (flips, zooms, and random rotations) to artificially expand the training dataset
+to ensure our model learns that tumors are the same, no matter their slight orientation or appearance. Rigorously training the AI for more accuracy.
+
+Risk: End user Over-reliance on AI 
+Mitigation: Clear non-negotiable disclaimers on all reports stating that the AI system is a Decision support tool 
+and not meant to replace medical professionals. Final decisions need to be made by a qualified medical professional.
