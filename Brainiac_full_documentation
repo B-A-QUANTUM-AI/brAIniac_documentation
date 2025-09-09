@@ -1,7 +1,7 @@
 
 
 
-2. Business Objectives
+2. BUSINESS OBJECTIVES
   A. Healthcare Impact & Clinical Adoption
        Improve brain tumor diagnostic accuracy using better training data for AI models
        Lower diagnostic time and expenses in clinical settings with reliable automated analysis
@@ -13,12 +13,18 @@
   C. Expand Global Access to Precision Diagnostics
        To enhance access to brain tumor diagnosis in low-resource locations, use AI techniques trained on BRISC.
 
-
+3. BUSINESS SUCCESS CRITERIA
+    A. Accuracy 
+         Aim for at least 90% accuracy when classifying brain MRI scans into the different categories: Healthy, Glioma, Meningioma, and Pituitary Adenoma.
+    B.Time Efficiency 
+         Process each scan and generate a full analysis report, including detection, classification, and visualization outputs, in under 5 minutes.
+    C.Usability
+         The system interface shall be designed for intuitive operation, enabling personnel without a medical background to process scans and generate reports effectively
 
 6. CONSTRAINTS.
-The brAIniac system is limited to the analysis of MRI brain scans only.
-The brain tumor classification is restricted to Glioma, Meningioma, and Pituitary Adenoma only.
-The system will use Grad-MAP heatmaps to further illustrate the seriousness of the tumor.
-The brAIniac will ensure transparency in reporting tumor detection, classification and risk assessment therefore the transparency in how risk levels are determined is non-negotiable.
-The system will not predict how long a patient will live, it is limited to analyzing MRI brain scans and classifying the seriousness of brain tumors.
-The brAIniac system is not going to replace medical professionals but to support and help them in medical decision-making.
+    The brAIniac system is limited to the analysis of MRI brain scans only.
+    The brain tumor classification is restricted to Glioma, Meningioma, and Pituitary Adenoma only.
+    The system will use Grad-MAP heatmaps to further illustrate the seriousness of the tumor.
+    The brAIniac will ensure transparency in reporting tumor detection, classification and risk assessment therefore the transparency in how risk levels are determined is non-negotiable.
+    The system will not predict how long a patient will live, it is limited to analyzing MRI brain scans and classifying the seriousness of brain tumors.
+    The brAIniac system is not going to replace medical professionals but to support and help them in medical decision-making.
