@@ -22,6 +22,15 @@
          The system interface shall be designed for intuitive operation, enabling personnel without a medical background to process scans and generate reports effectively
 
 4. BUSINESS BACKGROUND
+    The Chris Hani Baragwanath Hospital faces alot of challenges, one of them an extreme shortage of health practitioners (radiologists) in South Africa.
+    Those who are actively practicing tend to be overworked a lot,and that alone could result in them making errors/mistakes when it comes to reading the MRI scans.
+
+    Brainiac.AI is an AI platform that will assist with minimizing the work load and errors/mistakes ofhealth practitioners (radiologists) by automatically analyzing MRI scans for early detection and classification of brain tumors.
+    It uses DL (Deep Learning) to classify the tumor types, (IS) Image Segmentation to find the tumors' exact size and location, and Heatmaps to indicate the seriousness of the tumor.
+
+   This automated process enables precise classification and identification of tumors.
+   It provides health practitioners (radiologists) with a sense of comfort with it comes to the conclusion of MRI scans.
+   It also provides neurologists a less stress on identifying and removing of tumors.
 
 5. REQUIREMENTS
 A. Functional Requirements:
