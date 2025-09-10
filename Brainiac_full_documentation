@@ -1,5 +1,15 @@
 1. AI SOLUTION 
-
+     The diagnosis of brain tumors is one of the most critical tasks in healthcare. Despite its significance, 
+     it remains yet still a time consuming activity requiring lots of resources and expertise to move from 
+     differentials to diagnosis. Medical practitioners often rely on manual inspection of MRI scans a process,
+     which is prone to human errors even in developed countries. Our proposed solution leverages the BRISC 2025 
+     dataset – a high quality, vetted dataset containing multiple MRI scans already vetted by experts in radiology 
+     and neurology, to build a solution to assist and support healthcare in developing countries for tumor detection
+     and classification. The solution adopts deep learning for image segmentation and classification to identify the
+     type of brain tumor (Glioma, Meningioma, Pituitary Adenomas or No Tumor) This AI solution also aligns with 
+     South Africa’s goal of leveraging the power of AI technologies to create innovative ideas and solutions 
+     in the healthcare industry. This will reduce diagnostic workload and provide for faster response from diagnosis
+     to corrective actions for such a life threatening condition. 
 
 2. BUSINESS OBJECTIVES
   A. Healthcare Impact & Clinical Adoption
