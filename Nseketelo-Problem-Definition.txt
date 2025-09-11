@@ -1,0 +1,13 @@
+Problem Definition:
+
+Diagnosing brain tumors with MRI scans is very important but takes a lot of time and resources.
+In South Africa and other developing areas, there aren’t enough radiologists,
+and the ones available are often overworked. This leads to mistakes and delays in treating patients.
+Looking at MRI scans by hand takes a long time, can lead to errors, and slows down treatment for serious conditions like Glioma, Meningioma, and Pituitary Adenomas.
+
+This issue is very important in healthcare because brain tumors still cause many deaths and serious health problems.
+Finding them early and accurately can greatly improve how well patients recover.
+The proposed solution uses the BRISC 2025 dataset and deep learning methods to automatically analyze and classify medical images, helping tackle this problem directly.
+This solution will help lower the amount of work for radiologists, improve accuracy, and make reporting faster.
+It’s designed to support doctors by helping them give quicker and more dependable diagnoses.
+It won’t take the place of medical professionals, but will act as a helpful tool so they can make better decisions with more confidence.
