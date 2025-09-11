@@ -1,6 +1,7 @@
-The Chris Hani Baragwanath Hospital faces alot of challenges, one of them  being an extreme shortage of health practitioners (radiologists) in South Africa.
+South Africa faces alot of challenges, one of them  being an extreme shortage of health practitioners (radiologists).
 Those who are actively practicing tend to be overworked a lot,
 and that alone could result in them making errors/mistakes when it comes to reading the MRI scans.
+The Chris Hani Baragwanath Hospital falls victim to these challenge.
 
 Brainiac.AI is an AI platform that will assist with minimizing the work load and errors/mistakes of 
 health practitioners (radiologists) by automatically analyzing MRI scans for early detection and classification of brain tumors.
