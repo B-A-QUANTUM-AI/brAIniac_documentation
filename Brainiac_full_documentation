@@ -4,98 +4,102 @@
      differentials to diagnosis. Medical practitioners often rely on manual inspection of MRI scans a process,
      which is prone to human errors even in developed countries. Our proposed solution leverages the BRISC 2025 
      dataset – a high quality, vetted dataset containing multiple MRI scans already vetted by experts in radiology 
-     and neurology, to build a solution to assist and support healthcare in developing countries for tumor detection
-     and classification. The solution adopts deep learning for image segmentation and classification to identify the
+     and neurology, to build a solution to assist and support healthcare in Chris Hani Baragwanath Hospital for tumor detection
+     and classification. The solution adopts deep learning for image classification to identify the
      type of brain tumor (Glioma, Meningioma, Pituitary Adenomas or No Tumor) This AI solution also aligns with 
      South Africa’s goal of leveraging the power of AI technologies to create innovative ideas and solutions 
      in the healthcare industry. This will reduce diagnostic workload and provide for faster response from diagnosis
      to corrective actions for such a life threatening condition. 
 
 2. BUSINESS OBJECTIVES
-  A. Healthcare Impact & Clinical Adoption
-       Improve brain tumor diagnostic accuracy using better training data for AI models
-       Lower diagnostic time and expenses in clinical settings with reliable automated analysis
-       Increase patient outcomes by early detection and precise treatment planning
-  B. Scalability & Growth
-       Develop techniques for greater medical imaging domains
+     • Improve brain tumor diagnostic accuracy (greater than 80%) using leveraging brisc2025 dataset
+     • To Reduce the time required for diagnostic
+     • Improve patient prognosis by early detection and allowing effective clinical decision-making
+     • To reduce healthcare costs for both patients and hospitals without sacrificing quality clinical decision-making 
+     • To enhance access to brain tumor diagnosis in low-resource locations
+     • To demostrate how brAinaic can automate medical processes
+ * B. Scalability & Growth
+       Develop techniques for greater medical imaging techniques
        Create a platform for ongoing dataset maintenance and expansion
-       Create an ecosystem of tools and services built on the core dataset
-  C. Expand Global Access to Precision Diagnostics
-       To enhance access to brain tumor diagnosis in low-resource locations, use AI techniques trained on BRISC.
+       Create an ecosystem of tools and services built on brisc2025 dataset
+       
+ 
 
 3. BUSINESS SUCCESS CRITERIA
     A. Accuracy 
-         Aim for at least 90% accuracy when classifying brain MRI scans into the different categories: Healthy, Glioma, Meningioma, and Pituitary Adenoma.
+         Aim for at least 80%+ accuracy when classifying brain MRI scans into the different categories: Healthy, Glioma, Meningioma, and Pituitary Adenoma.
     B.Time Efficiency 
          Process each scan and generate a full analysis report, including detection, classification, and visualization outputs, in under 5 minutes.
-    C.Usability
-         The system interface shall be designed for intuitive operation, enabling personnel without a medical background to process scans and generate reports effectively
-
+    C. Confidence Score
+         The system must provide a confidence score (%) for each prediction
+  
+         
 4. BUSINESS BACKGROUND
     The Chris Hani Baragwanath Hospital faces alot of challenges, one of them an extreme shortage of health practitioners (radiologists) in South Africa.
     Those who are actively practicing tend to be overworked a lot,and that alone could result in them making errors/mistakes when it comes to reading the MRI scans.
 
-    Brainiac.AI is an AI platform that will assist with minimizing the work load and errors/mistakes ofhealth practitioners (radiologists) by automatically analyzing MRI scans for early detection and classification of brain tumors.
-    It uses DL (Deep Learning) to classify the tumor types, (IS) Image Segmentation to find the tumors' exact size and location, and Heatmaps to indicate the seriousness of the tumor.
+    Brainiac.AI is an AI platform that will assist with minimizing the work load and errors/mistakes of health practitioners (radiologists) by automatically analyzing MRI scans for early detection and classification of brain tumors.
+    It uses DL (Deep Learning) to classify the tumor types
 
    This automated process enables precise classification and identification of tumors.
-   It provides health practitioners (radiologists) with a sense of comfort with it comes to the conclusion of MRI scans.
-   It also provides neurologists a less stress on identifying and removing of tumors.
-
+   It is a tool that offers health practitioners (radiologists and neurologists) greater confidence when interpreting the results of MRI scans.
+ 
 5. REQUIREMENTS
 A. Functional Requirements:
     •	Input MRI scans in digital format. 
     •	The system must normalize and preprocess images (e.g., resize, contrast adjustment, noise reduction).
-    •	The system must classify tumors into one of four categories: Glioma, Meningioma, Pituitary Adenoma, or No Tumor.
-    •	The system must provide a confidence score (%) for each prediction.
-    •	The system must generate a diagnostic report summarizing: tumor type, probability, and recommendations for further analysis.
-    •	The system must notify radiologists if a high-probability tumor is detected.
-    •	The system must flag urgent cases for priority review.
-    •	Generate summary reports for radiologists.
+    •	The system must predict tumors into one of four categories: Glioma, Meningioma, Pituitary Adenoma, or No Tumor.
+    •	The system must generate a diagnostic report summarizing: tumor type, accuracy score
+    
+
 B. Non-Functional Requirements:
-    •	The system must achieve at least 90% accuracy in tumor classification.
-    •	The system must analyze an MRI scan and generate results in under 5 minutes.
+
     •	The system must handle at least 30 MRI scans per hour concurrently.
-    •	The system must maintain consistent performance across different MRI machine models.
-    •	The system must support expansion to other departments and hospitals in future.
-    •	The system must comply with South Africa’s POPIA healthcare data privacy regulations.
+    •	The system must maintain consistent performance across different MRI scans-pictures.
+    •	The system must support expansion to other hospitals in future.
     •	The system must be available 99.9% of the time.
     •	User-friendly dashboard for non-technical staff.
+    •	Generate summary reports for radiologists.
+ 
 
 6. CONSTRAINTS.
     The brAIniac system is limited to the analysis of MRI brain scans only.
-    The brain tumor classification is restricted to Glioma, Meningioma, and Pituitary Adenoma only.
-    The system will use Grad-MAP heatmaps to further illustrate the seriousness of the tumor.
+    The brain tumor classification is restricted to Glioma, Meningioma,No tumor and Pituitary Adenoma only.
     The brAIniac will ensure transparency in reporting tumor detection, classification and risk assessment therefore the transparency in how risk levels are determined is non-negotiable.
-    The system will not predict how long a patient will live, it is limited to analyzing MRI brain scans and classifying the seriousness of brain tumors.
-    The brAIniac system is not going to replace medical professionals but to support and help them in medical decision-making.
+    The system will not predict how long a patient will live
+    
 
 7. RISKS
-   Risk: Missclassification due to MRI scans or poor-quality data. 
-   Mitigation: By using Grad-Map to ensure that the model is only focused on the tumour area, and training our AI on a diverse, multi-source dataset of MRI scans.
-
-   Risk: “Black box” AI and lack of transparency
-   Mitigation: A transparent reporting system that includes a confidence score like “Glioma - 88%” and visualizations to prevent blind trust in uncertain predictions. Clearly explain the risk assessment, showing the tumor detected, the reason, the risk, and the confidence.
-
-   Risk: Insufficient AI training 
+   Risk: Missclassification due to MRI scans or poor-quality data - Inaccuracy. 
+   Mitigation: Avoid data imbalance due to the AI not having enough data from each class used for classification
    Mitigation: Using Data Augmentation techniques (flips, zooms, and random rotations) to artificially expand the training datasetto ensure our model learns that tumors are the same, no matter their slight orientation or appearance. Rigorously training the AI for more accuracy.
 
    Risk: End user Over-reliance on AI 
+   Mitigation: A transparent reporting system that includes a confidence score like “Glioma - 88%” and visualizations to prevent blind trust in uncertain predictions. 
    Mitigation: Clear non-negotiable disclaimers on all reports stating that the AI system is a Decision support tool and not meant to replace medical professionals. Final decisions need to be made by a qualified medical professional.
+
+   Risk: Legal-Risk Data Privacy
+   Mitigation: The system must comply with South Africa’s POPIA act healthcare data privacy regulations
+
+   Risk: Lack of User Adoption
+   Mitigation: Transparancy,How to use Document 
+
+   Risk: Technical Failure
+   Mitigation: Hosting the Ai solution on cloud services
 
 8. TOOLS AND TECHNIQUES
     A.	Python 
           The main development language due to its wide range of AI/ML libraries and strong community support
     B.	Machine Learning and Deep Learning Techniques
-          •	Linear regression – for the numerical predictions like tumor size.
           •	Convolutional Neural Networks (CNNs) – for tumor detection and classification from the MRI scans.
-          •	Image Segmentation Model (resNet) – for identifying tumor size and location.
-          •	Risk Assessment Algorithms – to assign the priority levels of the tumor(Low, Medium and High).
     C.	Python Libraries
           •	Pandas – for arranging and processing MRI metadata and patient file records
           •	Numpy – for handling numerical operations.
-          •	Scikit-Learn – for ML tasks (classification, regression)
-          •	TensorFlow / PyTorch – for DL (CNNs and resNet)
+          •	TensorFlow – for DL (CNNs)
+          •    Keras
+          •    Pathlib
+          •    OS
+          •    OpenCV
     D.	Development and collaboration Tools and Techniques
           •	Face to face meetings – To discuss the work and brainstorm ideas
           •	WhatsApp – for faster and ease of communications
@@ -106,3 +110,4 @@ B. Non-Functional Requirements:
           •	MS Word – for generating documentation for brAIniac project
           •	Notepad – for generating documentation on how to use brAIniac
           •	Canva/Figma – for creating poster and presentation design
+          •   MS Powerpoint
