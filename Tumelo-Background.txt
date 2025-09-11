@@ -1,13 +1,13 @@
 South Africa faces alot of challenges, one of them  being an extreme shortage of health practitioners (radiologists).
 Those who are actively practicing tend to be overworked a lot,
 and that alone could result in them making errors/mistakes when it comes to reading the MRI scans.
-The Chris Hani Baragwanath Hospital falls victim to these challenge.
 
-Brainiac.AI is an AI platform that will assist with minimizing the work load and errors/mistakes of 
-health practitioners (radiologists) by automatically analyzing MRI scans for early detection and classification of brain tumors.
-It uses DL (Deep Learning) to classify the tumor types,
-(IS) Image Segmentation to find the tumors' exact size and location, and Heatmaps to indicate the seriousness of the tumor.
+The Chris Hani Baragwanath Hospital falls victim to some of these challenges.
+
+Quantum.AI, an AI focused company, saw the challenges and introduced a solution, Brainiac.AI.
+Brainiac.AI is an AI platform that will assist with minimizing the work load and errors/mistakes of health practitioners (radiologists)
+by automatically analyzing MRI scans for early detection and classification of brain tumors.
+It uses DL (Deep Learning) to classify the tumor types
 
 This automated process enables precise classification and identification of tumors.
-It provides health practitioners (radiologists) with a sense of comfort with it comes to the conclusion of MRI scans.
-It also provides neurologists a less stress on identifying and removing of tumors.
+It is a tool that offers health practitioners (radiologists and neurologists) greater confidence when interpreting the results of MRI scans.
