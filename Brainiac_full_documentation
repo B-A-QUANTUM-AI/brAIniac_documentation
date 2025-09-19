@@ -32,28 +32,31 @@
          Process each scan and generate a full analysis report, including detection, classification, and visualization outputs, in under 5 minutes.
     C. Confidence Score
          The system must provide a confidence score (%) for each prediction
-  
-         
+
+
 4. BUSINESS BACKGROUND
-    The Chris Hani Baragwanath Hospital faces alot of challenges, one of them an extreme shortage of health practitioners (radiologists) in South Africa.
-    Those who are actively practicing tend to be overworked a lot,and that alone could result in them making errors/mistakes when it comes to reading the MRI scans.
+    South Africa faces alot of challenges, one of them  being an extreme shortage of health practitioners 
+    (radiologists) (https://www.ewn.co.za/2025/01/14/south-africas-healthcare-crisis).
+    Those who are actively practicing tend to be overworked a lot,and that alone could result in them making
+    errors/mistakes when it comes to reading the MRI scans. The Chris Hani Baragwanath Hospital falls victim 
+    to some of these challenges.
 
-    Brainiac.AI is an AI platform that will assist with minimizing the work load and errors/mistakes of health practitioners (radiologists) by automatically analyzing MRI scans for early detection and classification of brain tumors.
-    It uses DL (Deep Learning) to classify the tumor types
+    Quantum.AI, an AI focused company, saw the challenges and introduced a solution, Brainiac.AI.
+    Brainiac.AI is an AI platform that will assist with minimizing the work load and errors/mistakes of health 
+    practitioners (radiologists) by automatically analyzing MRI scans for early detection and classification of 
+    brain tumors. It uses DL (Deep Learning) to classify the tumor types. This automated process enables precise 
+    classification and identification of tumors. It is a tool that offers health practitioners (radiologists and neurologists) 
+    greater confidence when interpreting the results of MRI scans.
 
-   This automated process enables precise classification and identification of tumors.
-   It is a tool that offers health practitioners (radiologists and neurologists) greater confidence when interpreting the results of MRI scans.
- 
+
 5. REQUIREMENTS
 A. Functional Requirements:
     •	Input MRI scans in digital format. 
     •	The system must normalize and preprocess images (e.g., resize, contrast adjustment, noise reduction).
     •	The system must predict tumors into one of four categories: Glioma, Meningioma, Pituitary Adenoma, or No Tumor.
-    •	The system must generate a diagnostic report summarizing: tumor type, accuracy score
-    
+    •	The system must generate a diagnostic report summarizing: tumor type, accuracy score    
 
 B. Non-Functional Requirements:
-
     •	The system must handle at least 30 MRI scans per hour concurrently.
     •	The system must maintain consistent performance across different MRI scans-pictures.
     •	The system must support expansion to other hospitals in future.
@@ -86,6 +89,7 @@ B. Non-Functional Requirements:
 
    Risk: Technical Failure
    Mitigation: Hosting the Ai solution on cloud services
+
 
 8. TOOLS AND TECHNIQUES
     A.	Python 
