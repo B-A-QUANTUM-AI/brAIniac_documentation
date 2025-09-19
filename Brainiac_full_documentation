@@ -70,6 +70,7 @@ B. Non-Functional Requirements:
     The brain tumor classification is restricted to Glioma, Meningioma,No tumor and Pituitary Adenoma only.
     The brAIniac will ensure transparency in reporting tumor detection, classification and risk assessment therefore the transparency in how risk levels are determined is non-negotiable.
     The system will not predict how long a patient will live
+     The system is being tested on local computers with limited compute power and as such may affect efforts of achieveing high accuracy as well as high performance
     
 
 7. RISKS
